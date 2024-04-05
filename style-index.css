@@ -1,0 +1,51 @@
+header {
+    background-color: rgb(51, 51, 255);
+    width: none;
+    height: none;
+}
+
+header img {
+    width: 5%;
+    height: 5%;
+    padding: 1%;
+}
+
+section article h22 {
+    color: green;
+    font-size: 25px;
+    
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    width: 301px;
+    cursor: auto;
+}
+
+.menu__item {
+    display: inlcine-block;
+    width: 20%;
+}
+
+.submenu {
+    background-color: greenyellow;
+    color: rgb(68, 67, 67);
+    font-size: 45;
+    display: none;
+    
+}
+
+.com-submenu:haver .submenu {
+    display: block;
+}
+
+.face {
+    width: 1px;
+    height: 1px;
+}
+
+.insta {
+    width: 1px;
+    height: 1px;
+}
