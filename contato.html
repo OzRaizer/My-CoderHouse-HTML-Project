@@ -3,111 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curve 3D: Inovação em Impressão 3D e Corte a Laser</title>
-    <link rel="stylesheet" href="style-sobre.css">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <title> Contato | 3D</title>
+
 </head>
-
 <body>
-    <header class="header-container">
-        <div class="logo">
-            <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png_" alt="Logo da Curve 3D" title="Logo da curve 3D">
-        </div>
+    <!--Inicio Header-->
+    <header style="background-image: url('img/background-contacto.jpg');">
+        <!--Conainer Inicio-->
+        <div class="header">
             <nav>
-                <ul class="menu">
-                    <li><a href="index.html">Home</a>
-                        <ul class="submenu">
-                            <li><a href="">Projetos</a></li>
-                        </ul>
-                        <br>
-                        <ul class="submenu">
-                            <li><a href="">Sobre Nós</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="projetos.html">Projetos</a>
-                        <ul class="submenu">
-                            <li><a href="">Projeto 1</a></li>
-                        </ul>
-                        <br>
-                        <ul class="submenu">
-                            <li><a href="">Projeto 2</a></li>
-                        </ul>
-                        <br>
-                        <ul class="submenu">
-                            <li><a href="">Projeto 3</a></li>
-                        </ul>
-                        <br>
-                        <ul class="submenu">
-                            <li><a href="">Projeto 4</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="sobre.html">Sobre Nós</a>
-                        <ul class="submenu">
-                            <li><a href="">Missão</a></li>
-                        </ul>
-                        <br>
-                        <ul class="submenu">
-                            <li><a href="">Visão</a></li>
-                        </ul>
-                        <br>
-                        <ul class="submenu">
-                            <li><a href="">Valores</a></li>
-                        </ul>
-                        <br>
-                        <ul class="submenu">
-                            <li><a href="">Equipamentos</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="contato.html">Fale Conosco</a>
-                    </li>
+                <a href="index.html">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="Servicos.html">Serviços</a>
+                    <a class="btn" href="Contato.html">Contato</a>
                 </ul>
+                <div class="close-icons" onclick="closeMenu()">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </nav>
-    </header>
-
-    <main>
-        <section id="contato">
-            <h1>Entre em Contato</h1>
-            <p>Envie sua proposta, e em breve retornaremos</p>
-            <table>
-                <tr>
-                    <td><label for="nome">Nome Completo:</label></td>
-                    <td><input type="text" id="nome" name="nome" required></td>
-                </tr>
-                <tr>
-                    <td><label for="email">E-mail:</label></td>
-                    <td><input type="email" id="email" name="email" required></td>
-                </tr>
-                <tr>
-                    <td><label for="telefone">Telefone:</label></td>
-                    <td><input type="tel" id="telefone" name="telefone" required></td>
-                </tr>
-                <tr>
-                    <td><label for="idade">Idade:</label></td>
-                    <td><input type="number" id="idade" name="idade" required></td>
-                </tr>
-                <tr>
-                    <td><label for="mensagem">Mensagem:</label></td>
-                    <td><textarea id="mensagem" name="mensagem" rows="5"></textarea></td>
-                </tr>
-                <tr>
-                    <td><label for="anexo">Anexar Imagem:</label></td>
-                    <td><input type="file" id="anexo" name="anexo"></td>
-                </tr>
-            </table>
-            <button type="submit">Enviar</button>
-        </section>
-    </main>
-
-    <br>
-    <hr>
-
-<footer>
-    <div class="container">
-        <div class="social-media">
-            <a href="" class="face"><img src="https://i.pinimg.com/originals/70/f9/36/70f936294a1f0f3949a9205df9340d5e.png_" alt="Facebook"></a>
-            <a href="" class="insta"></a><img src="https://image.similarpng.com/very-thumbnail/2020/05/Popular-Logo-Instagram-icon-PNG.png_" alt="Instagram"></a>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Fale conosco</h1> 
+                    <p>
+                        Peça ja seu orçamento, retornaremos assim que possivel
+                    </p>
+                </div>
+            </section>
         </div>
-    </div>
-    <p>&copy; 2024 Curve 3D</p>
-</footer>
+        <!--Container Fim-->
+    </header>
+    <!--Fim Header-->
+
+    <section class="contato">
+        <div class="container">
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58407.33265892504!2d-45.4095268050569!3d-23.802297103186678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d299a1e1b58951%3A0xdb1cb1ae3f4ba322!2sIlhabela%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1714091394232!5m2!1spt-BR!2sbr" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contato-info">
+                <div class="left-side"> 
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>351 Ilha Bela, Pallage Sreet, IH 15156, BR</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>contato@3DLaser.com</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>(21) 4115-5544 - (21) 97887-4545</p>
+                </div>
+
+                <div class="right-side">
+                    <form action="">
+                        <input type="text" placeholder="nome" required>
+                        <input type="text" placeholder="E-mail" required>
+                        <input type="text" placeholder="Assunto" required>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
+                        <button class="btn">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        </div>
+    </section>
+
+    <!--Começo rodape-->
+    <footer class="footer">
+        <div class="conteiner">
+            <div class="links">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p>Desenvolvido por Oziel Raizer Junior</p>
+        </div>
+    </footer>
+    <!--Fim Rodape-->
+    <script src="/js/main.js"></script>
 </body>
 </html>
