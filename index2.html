@@ -3,98 +3,207 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Circle 3D</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>3D</title>
+
 </head>
-
 <body>
-
-    <header>
-        <div class="center">
-            <div class="logo">
-                <h2>3D Circle</h2>
-            </div>
-            <div class="menu">
-                <a href="#">
-                    Home
+    <!--Inicio Header-->
+    <header style="background-image: url('img/background-home.jpg');">
+        <!--Conainer Inicio-->
+        <div class="header">
+            <nav>
+                <a href="index.html">
+                    <img src="img/logo.png" alt="logo">
                 </a>
-                <a href="#">
-                    Sobre
-                </a>
-                <a href="#">
-                    contato
-                </a>
-                <a class="btn-menu" href="#">
-                    Get Started
-                </a>
-            </div><!--Menu-->
-        </div><!--Center-->
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="Servicos.html">Serviços</a>
+                    <a class="btn" href="Contato.html">Contato</a>
+                </ul>
+                <div class="close-icons" onclick="closeMenu()">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Whitespace</h1>
+                    <p>Construa sua marca, conquiste o mundo sem habilidades de codigo ou design necessarias</p>
+                    <a href="Contato.html" class="btn animate-btn">Entrar em Contato</a>
+                </div>
+            </section>
+        </div>
+        <!--Container Fim-->
     </header>
+    <!--Fim Header-->
 
-
-    <section class="main">
-        <div class="center">
-            <div class="main__cta">
-                <h2>One Page Sample</h2>
-                <p>We are 3D Cirlce</p>
-                <button>Get Started</button>
-            </div><!--main cta-->
-
-            <div class="diferenciais">
-                <div class="diferencial-single">
-                    <i class="fa-solid fa-ghost"></i>
-                    <h2>Lorem ipsum</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quisquam labore doloribus facere dolore blanditiis veritatis, vero adipisci aspernatur? Placeat quisquam, tenetur modi nihil dolorem cumque voluptatem. In, sint deleniti.</p>
-                </div> <!--diferencial-single-->
-                <div class="diferencial-single">
-                    <i class="fa-solid fa-ghost"></i>
-                    <h2>Lorem ipsum</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quisquam labore doloribus facere dolore blanditiis veritatis, vero adipisci aspernatur? Placeat quisquam, tenetur modi nihil dolorem cumque voluptatem. In, sint deleniti.</p>
-                </div> <!--diferencial-single-->
-                <div class="diferencial-single">
-                    <i class="fa-solid fa-ghost"></i>
-                    <h2>Lorem ipsum</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quisquam labore doloribus facere dolore blanditiis veritatis, vero adipisci aspernatur? Placeat quisquam, tenetur modi nihil dolorem cumque voluptatem. In, sint deleniti.</p>
-                </div> <!--diferencial-single-->
-                <div class="diferencial-single">
-                    <i class="fa-solid fa-ghost"></i>
-                    <h2>Lorem ipsum</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem quisquam labore doloribus facere dolore blanditiis veritatis, vero adipisci aspernatur? Placeat quisquam, tenetur modi nihil dolorem cumque voluptatem. In, sint deleniti.</p>
-                </div> <!--diferencial-single-->
-            </div><!--diferenciais-->
-
-        </div><!--Center-->
-    </section><!--main-->
-
-
-    <section class="Sobre">
-        <div class="center">
-            <div class="chamada-sobre">
-                <h2>Sobre a 3D</h2>
-                <p>3D Projeto é um projeto de emrpesas tanana tanana</p>
-                    <br>
+    <!--Faca mais inicio-->
+    <section class="faca-mais">
+        <!--Container-->
+        <div class="container">
+            <div class="faca-mais-text">
+                <h3>Faça mais com Whitespace</h3>
+                <p>Criaçao de websites, loja virtual, blogs para pequenas,
+                    medias e grandes empresas ter um site online nunca foi tao facil
+                </p>
+                <a href="Contato.html" class="btn animate-btn">Entrar em Contato</a>
             </div>
-            <div class="conteudo-sobre">
-                <p>Text tanana text tnanana</p>
+            <div class="faca-mais-img">
+                <img src="img/img-1.png" alt="">
+            </div>
+        </div>
+        <!--Container Fim-->
+    </section>
+    <!-- Faca mais fim-->
 
-                <br>
-                <span><i class="fa-solid fa-check"></i> item 1 <br></span>
-                </span><i class="fa-solid fa-check"></i> item 2 <br></span>
-                <p>Text tanana tex tanana</p>
-            </div><!--conteudo sobre-->
-        </div><!--Center-->
-    </section><!--sobre-->
+    <!--Faca mais 2 inicio-->
+    <section class="faca-mais">
+        <!--Container-->
+        <div class="container">
+            <div class="faca-mais-img">
+                <img src="img/img-2.png" alt="">
+            </div>
+            <div class="faca-mais-text">
+                <h3>Ter um website nunca foi tao facil</h3>
+                <p>Agora com a nossa empresa ter um website e algo simplesmente facil
+                   basta entrar em contato e nos vamos desenvolver o seu websiet em
+                   tempo recorde para voce começar a conquistar o mundo.
+                </p>
+                <a href="Contato.html" class="btn animate-btn">Entrar em Contato</a>
+            </div>
+            
+        </div>
+        <!--Container Fim-->
+    </section>
+    <!-- Faca mais 2 fim-->
 
+    <!--Depoimentos Inicio-->
+    <section class="depoimentos">
+        <div class="container">
+            <h3>Nossos Depoimentos</h3>
+            <p>Leia o que nossos clientes falam de nos pro mundo</p>
+            <div class="cards">
+                <!--Card Item 1 Inicio-->
+                <div class="cards-item">
+                    <img src="img/me.jpg" alt="Matheus">
+                    <p class="nome-user">Matheus Manuel</p>
+                    <p class="depoimento-user">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Illo quaerat ad distinctio minus illum nihil, laboriosam commodi tempora facere necessitatibus eos,
+                        quae dolores dolore labore, velit consequuntur incidunt reiciendis numquam!
+                    </p>
 
+                    <div class="estrelas">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-regular fa-star"></i>
 
+                    </div>
+                </div>
+                <!--Card Item 1 Final-->
 
+                <!--Card Item 2 Inicio-->
+                <div class="cards-item">
+                    <img src="img/me.jpg" alt="Matheus">
+                    <p class="nome-user">Matheus Manuel</p>
+                    <p class="depoimento-user">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Illo quaerat ad distinctio minus illum nihil, laboriosam commodi tempora facere necessitatibus eos,
+                        quae dolores dolore labore, velit consequuntur incidunt reiciendis numquam!
+                    </p>
 
+                    <div class="estrelas">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-regular fa-star"></i>
 
+                    </div>
+                </div>
+                <!--Card Item 2 Final-->
 
+                <!--Card Item 3 Inicio-->
+                <div class="cards-item">
+                    <img src="img/me.jpg" alt="Matheus">
+                    <p class="nome-user">Matheus Manuel</p>
+                    <p class="depoimento-user">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Illo quaerat ad distinctio minus illum nihil, laboriosam commodi tempora facere necessitatibus eos,
+                        quae dolores dolore labore, velit consequuntur incidunt reiciendis numquam!
+                    </p>
 
-    <script src="https://kit.fontawesome.com/d7f69b5d4b.js" crossorigin="anonymous"></script>
+                    <div class="estrelas">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-regular fa-star"></i>
+
+                    </div>
+                </div>
+                <!--Card Item 3 Final-->
+
+            </div>
+        </div>
+    </section>
+    <!--Depoimentos Fim-->
+
+    <!--Clientes Começo-->
+    <section class="Clientes">
+        <div class="Container">
+            <h3>
+                Nossos Clientes
+            </h3>
+            <p>Prestamos serviços a todo topo de empresa ou projeto, olhe alguns dos nossos clientes</p>
+            <div>
+                <img src="img/apple.png" alt="">
+                <img src="img/microsoft.png" alt="">
+                <img src="img/slack.png" alt="">
+                <img src="img/google.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!--Clientes Fim-->
+
+    <!--Faca mais inicio-->
+    <section class="faca-mais">
+        <!--Container-->
+        <div class="container">
+            <div class="faca-mais-text">
+                <h3>Tenha um website seguro</h3>
+                <p>Nos trabalhamos com tecnologias atualizadas,
+                    rapidas e as mais seguras do mercado, fazemos backup e 
+                    manutençao no seu site em tempo recorde.
+                </p>
+                <a href="Contato.html" class="btn animate-btn">Entrar em Contato</a>
+            </div>
+            <div class="faca-mais-img">
+                <img src="img/security.png" alt="">
+            </div>
+        </div>
+        <!--Container Fim-->
+    </section>
+    <!-- Faca mais fim-->
+
+    <!--Começo rodape-->
+    <footer class="footer">
+        <div class="conteiner">
+            <div class="links">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p>Desenvolvido por Oziel Raizer Junior</p>
+        </div>
+    </footer>
+    <!--Fim Rodape-->
+    <script src="/js/main.js"></script>
 </body>
 </html>
