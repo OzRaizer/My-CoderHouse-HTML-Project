@@ -424,7 +424,7 @@ nav .close-icons{
         transition: 0.7s;
     }
 
-    .ul .openMenu{
+    .ul.openMenu{
         clip-path: circle(141.4% at 100% 0);
     }
 
