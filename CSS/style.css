@@ -463,7 +463,7 @@ nav .close-icons{
     }
 
     .ul a{
-        margin: 0 14px;
+        margin: 10px 0;
         font-size: 12px;
     }
 
@@ -478,7 +478,7 @@ nav .close-icons{
     nav .close-icons{
         display: block;
         position: absolute;
-        top: 46px;
-        right: 28px;
+        top: 15px;
+        right: 15px;
     }
 }
