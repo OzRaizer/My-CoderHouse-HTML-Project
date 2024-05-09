@@ -443,7 +443,7 @@ nav .close-icons{
 
 /* Fim Pagina Contato */
 
-@media(min-width: 830px){
+@media(max-width: 782px){
     /*Menu mobile*/
     .ul{
         position: fixed;
